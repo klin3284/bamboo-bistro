@@ -20,7 +20,7 @@ footer {
   text-align: center;
   position: relative;
   width: 100vw;
-  margin-top: 75px;
+  margin-top: calc(100vh - 695px);
 }
 
 .footer-content {
