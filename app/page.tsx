@@ -44,7 +44,7 @@ export default function Home() {
           fontWeight: 200,
         }}
       >
-        Welcome to 2024's Best Voted Restaurant in Boston
+        Welcome to 2024&rsquo;s Best Voted Restaurant in Boston
       </div>
 
       <div className="itemName">Okonomiyaki Pancake</div>
@@ -77,7 +77,7 @@ export default function Home() {
       </div>
 
       <footer>
-        <div className="itemDescription" style={{paddingBottom: 15}}>Chef de Cuisine Kenny Lin Property Manager Angel Yang</div>
+        <div className="itemDescription" style={{paddingBottom: 15}}>Chef de Cuisine Kenny Lin&emsp;Property Manager Angel Yang</div>
         <div className="footer-content">
           <p>© 2024 Bamboo Bistro</p>
           <ul className="footer-menu">
