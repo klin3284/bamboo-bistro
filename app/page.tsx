@@ -12,6 +12,7 @@ export default function Home() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          overflow: "scroll",
         }}
       >
         <Box
@@ -29,7 +30,7 @@ export default function Home() {
             position: "absolute",
             left: "50%",
             transform: "translateX(-50%)",
-            fontSize: 50,
+            fontSize: 40,
             fontWeight: 700,
           }}
         >
@@ -64,11 +65,6 @@ export default function Home() {
       <div className="itemDescription">
         Tender cod fillets marinated in a blend of white miso paste, mirin, and
         sugar. Grilled until perfectly caramelized.
-      </div>
-
-      <div className="itemName">Garlic Pea Shoots</div>
-      <div className="itemDescription">
-        Fresh pea shoots stir-fried with garlic and a touch of soy sauce.
       </div>
 
       <div className="itemName">Garlic Pea Shoots</div>

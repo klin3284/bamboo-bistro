@@ -16,6 +16,18 @@
   }
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background-color: white;
