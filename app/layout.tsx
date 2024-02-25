@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={raleway.className}>
+      <head>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+      </head>
       <body>{children}</body>
     </html>
   );
