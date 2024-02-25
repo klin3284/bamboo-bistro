@@ -15,26 +15,25 @@ export default function Home() {
           overflow: "scroll",
         }}
       >
-        <Box
-          sx={{
-            width: 80,
-            height: 80,
-            backgroundImage: "url('./bamboo.png')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            marginRight: "auto", // pushes the box to the far left
-          }}
-        />
         <div
           style={{
-            position: "absolute",
-            left: "50%",
-            transform: "translateX(-50%)",
+            display: "flex",
+            position: "relative",
             fontSize: 40,
             fontWeight: 700,
+            alignItems: "flex-end",
           }}
         >
           Bamboo Bistro
+          <Box
+            sx={{
+              width: 80,
+              height: 80,
+              backgroundImage: "url('./bamboo.png')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          />
         </div>
       </div>
       <div
@@ -50,15 +49,16 @@ export default function Home() {
 
       <div className="itemName">Okonomiyaki Pancake</div>
       <div className="itemDescription">
-        A savory Japanese pancake loaded with cabbage, tempura flakes, and scallions. Topped with
-       okonomiyaki sauce.
+        A savory Japanese pancake loaded with cabbage, tempura flakes, and
+        scallions. Topped with okonomiyaki sauce.
       </div>
 
       <div className="itemName">
         Cantonese-style Dungeness Crab Steamed Sticky Rice
       </div>
       <div className="itemDescription">
-        Fresh and locally sourced Dungeness crab stir-fried with garlic, ginger, and scallions. Steamed with glutinous rice.
+        Fresh and locally sourced Dungeness crab stir-fried with garlic, ginger,
+        and scallions. Steamed with glutinous rice.
       </div>
 
       <div className="itemName">Kenbu Miso Glazed Cod</div>
@@ -73,12 +73,16 @@ export default function Home() {
       </div>
 
       <footer>
-        <div className="itemDescription" style={{paddingBottom: 15}}>Chef de Cuisine Kenny Lin&emsp;Property Manager Angel Yang</div>
+        <div className="itemDescription" style={{ paddingBottom: 15 }}>
+          Chef de Cuisine Kenny Lin&emsp;Property Manager Angel Yang
+        </div>
         <div className="footer-content">
           <p>© 2024 Bamboo Bistro</p>
           <ul className="footer-menu">
             <li>
-              <a href="https://asianamericancenter.northeastern.edu/">About Us</a>
+              <a href="https://asianamericancenter.northeastern.edu/">
+                About Us
+              </a>
             </li>
             <li>
               <a href="./">Menu</a>
